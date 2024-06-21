@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Lifestyle e Moda</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        section h2 {
+            font-size: 2em;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .post {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .post h3 {
+            font-size: 1.5em;
+        }
+        .post p {
+            font-size: 1em;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px 0;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Blog de Lifestyle e Moda</h1>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#dicas">Dicas de Moda</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Bem-vindo ao meu blog! Sou apaixonado/a por moda e lifestyle, e criei este espaço para partilhar as minhas dicas e experiências. O estilo "old money" reflete elegância e sofisticação, e acredito que todos podem adotar um toque clássico no seu dia a dia. Acompanhe-me nesta jornada de moda e lifestyle!</p>
+        </section>
+        <section id="dicas">
+            <h2>Dicas de Moda</h2>
+            <article class="post">
+                <h3>Elegância Clássica: Como Adotar o Estilo Old Money</h3>
+                <p>O estilo "old money" é marcado por roupas de alta qualidade, cores neutras e um ar de sofisticação discreta. Invista em peças atemporais como um bom casaco de lã, sapatos de couro e acessórios de joalharia clássica.</p>
+            </article>
+            <article class="post">
+                <h3>Tendências que Nunca Saem de Moda</h3>
+                <p>Peças como o blazer bem cortado, camisas brancas e calças de alfaiataria são investimentos que duram uma vida e nunca perdem o charme. Combine com acessórios simples e elegantes para um look impecável.</p>
+            </article>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Para mais informações ou colaborações, entre em contacto comigo pelo email: <a href="mailto:exemplo@email.com">exemplo@email.com</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Blog de Lifestyle e Moda. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
